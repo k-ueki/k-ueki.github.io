@@ -8,5 +8,5 @@ $smarty->compile_dir = "templates_c/";
 
 $smarty->assign("test","WORLD");
 
-//$smarty->display("index.html");
+$smarty->display("index.html");
 ?>
