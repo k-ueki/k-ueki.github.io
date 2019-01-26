@@ -2,8 +2,9 @@
     /*background:rgb(253, 180, 70);*/
 
 }
-li{
-    list-style: none;
+a{
+    /*list-style: none;*/
+float:left;
 }
 .header{
     /*background:rgb(75, 253, 5);*/
