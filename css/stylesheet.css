@@ -1,16 +1,16 @@
 .header-1{
     /*background:rgb(253, 180, 70);*/
     font-size:36px;
-float:left;
-padding:20px 30px;
+    float:left;
+    padding:20px 30px;
 }
 a{
     /*list-style: none;*/
-float:left;
-padding:20px 30px;
+    float:left;
+    padding:20px 30px;
 }
 .header{
     /*background:rgb(75, 253, 5);*/
-    background: #25ff92;
+    background-color: #25ff92;
 
 }
