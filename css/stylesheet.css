@@ -1,5 +1,6 @@
 .header-1{
     /*background:rgb(253, 180, 70);*/
+    font-size:36px;
 float:left;
 background: #25ff92;
 padding:20px 30px;
@@ -8,7 +9,7 @@ a{
     /*list-style: none;*/
 float:left;
 background: #25ff92;
-padding:20px 30px;
+padding:px 30px;
 }
 .header{
     /*background:rgb(75, 253, 5);*/
