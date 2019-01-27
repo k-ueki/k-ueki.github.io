@@ -7,9 +7,11 @@
 a{
     /*list-style: none;*/
     float:left;
-    padding:20px 30px;
+    padding:30px 30px;
+    height:100px;
 }
 .header{
     /*background:rgb(75, 253, 5);*/
     background-color: #25ff92;
+    height:100px;
 }
