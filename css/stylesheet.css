@@ -21,6 +21,10 @@ li{
 }
 
 
+.main{
+	padding:100px 80px;
+}
+
 .footer{
 	background-color:#2f5167;
 	color:#fff;
