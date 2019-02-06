@@ -32,8 +32,9 @@ li{
 .footer{
 	background-color:#2f5167;
 	color:#fff;
-	height:120px;
+	height:80px;
 	padding:40px;
+	margin-top:-50px;
 }
 .footer-logo{
 	font-size:28px;
