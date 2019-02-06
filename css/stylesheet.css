@@ -13,13 +13,26 @@ li{
 	padding-right:50px;
 }
 a{
-    /*list-style: none;*/
     float:left;
     padding:35px 30px;
     height:100px;
 }
-.header{
-    /*background:rgb(75, 253, 5);*/
-    background-color: #25ff92;
-    height:100px;
+
+
+.footer{
+	background-color:#2f5167;
+	color:#fff;
+	height:120px
+	padding:40px;
+}
+.footer-logo{
+	font-size:28px;
+	float:left;
+	padding:20px 30px;
+}
+.footer-list{
+	float:right;
+}
+.footer-list li{
+	padding-bottom:30px;
 }
