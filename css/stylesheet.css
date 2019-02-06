@@ -21,9 +21,13 @@ li{
 }
 
 
+
 .main{
 	padding:100px 80px;
 }
+
+
+
 
 .footer{
 	background-color:#2f5167;
@@ -40,5 +44,6 @@ li{
 	float:right;
 }
 .footer-list li{
+	list-style:none;
 	padding-bottom:30px;
 }
