@@ -12,7 +12,9 @@ li{
     padding:20px 30px;
 	padding-right:50px;
 }
-a{
+.header a{
+	color:#fff;
+	border:none;
     float:left;
     padding:35px 30px;
     height:100px;
