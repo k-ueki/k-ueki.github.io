@@ -1,5 +1,12 @@
-.header-1{
-    /*background:rgb(253, 180, 70);*/
+li{
+	list-style:none;
+}
+.heade{
+	background-color:#26d0c9;
+	color:#fff;
+	height:90px;
+}
+.header-logo{
     font-size:36px;
     float:left;
     padding:20px 30px;
