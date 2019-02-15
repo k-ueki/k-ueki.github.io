@@ -43,8 +43,9 @@ li{
 }
 .footer-list{
 	float:right;
+	line-height:80px;
 }
 .footer-list li{
 	list-style:none;
-	padding-bottom:30px;
+	padding-bottom:20px;
 }
