@@ -1,3 +1,6 @@
-$(".hello").click(function(){
-    alert("OKOK");
+$(function(){
+    
+    $(".hello").click(function(){
+         alert("OKOK");
+    })
 })
