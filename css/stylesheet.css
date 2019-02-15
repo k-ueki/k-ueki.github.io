@@ -19,9 +19,15 @@ li{
     padding:35px 30px;
     height:100px;
 }
+.header-list li{
+	display:block;
+}
 
 
-
+body{
+	background-image:url("sources/IMG_1098.jpg");
+	background-size:cover;
+}
 .main{
 	padding:100px 80px;
 }
