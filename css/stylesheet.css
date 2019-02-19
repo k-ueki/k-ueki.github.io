@@ -73,7 +73,8 @@ body{
 
 .modal-wrapper{
 	width:50%;
-	margin:auto auto;
+	height:50%;
+	margin:25% 25%;
 	position:fixed;
 	border:2px solid #aaa;
 	background:#fff;
