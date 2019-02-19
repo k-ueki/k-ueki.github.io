@@ -6,7 +6,7 @@ $(function(){
         $(".modal-wrapper").append(modal_content);
         var test = document.getElementsByClassName("modal-wrapper");
         console.log(test);
-        $(".modal-wrapper").css("display","block");
-
+        //$(".modal-wrapper").css("display","block");
+        $(".modal-wrapper").fadeIn();
     })
 })
