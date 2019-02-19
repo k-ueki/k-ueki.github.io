@@ -1,4 +1,5 @@
 $(function(){
+    $("#header").load("header.html");
     $(document).on("click",".about",function(){
         var modal_title = $(this).text();
         $(".modal-title").text(modal_title);
@@ -14,5 +15,10 @@ $(function(){
 
     $(document).on("click",".back",function(){
         $(".modal-wrapper").fadeOut();
+    })
+
+
+    $(".port").click(function(){
+        location.href="../templates/port.html";
     })
 })
