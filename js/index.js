@@ -1,5 +1,5 @@
 $(function(){
-    $("#header").load("header.html");
+    $("#header").load("../templates/header.html");
     $(document).on("click",".about",function(){
         var modal_title = $(this).text();
         $(".modal-title").text(modal_title);
