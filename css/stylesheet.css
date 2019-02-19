@@ -46,9 +46,12 @@ body{
 
 
 .footer{
+	position: absolute;
+	top:100%-80px;
 	background-color:#2f5167;
 	color:#fff;
 	width:100%;
+	height:80px;
 }
 .footer-logo{
 	font-size:28px;
