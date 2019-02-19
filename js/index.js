@@ -9,4 +9,8 @@ $(function(){
         //$(".modal-wrapper").css("display","block");
         $(".modal-wrapper").fadeIn();
     })
+
+    $(document).on("click",".back",function(){
+        $(".modal-wrapper").fadeOut();
+    })
 })
