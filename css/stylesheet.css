@@ -48,6 +48,7 @@ body{
 .footer{
 	position: absolute;
 	top:100%-80px;
+	left:0px;
 	background-color:#2f5167;
 	color:#fff;
 	width:100%;
@@ -58,8 +59,10 @@ body{
 	float:left;
 }
 .footer-list{
-
+	text-align: center;
 }
 .footer-list li{
 	float:left;
+	padding-left:15px;
+	margin:auto auto;	
 }
