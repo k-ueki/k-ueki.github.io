@@ -6,6 +6,8 @@ $(function(){
         $(".modal-wrapper").append(modal_content);
         var test = document.getElementsByClassName("modal-wrapper");
         console.log(test);
+        var inner = "<h3>Hi I'm ueki!</h3>";
+        $("modal-inner").append(inner);
         //$(".modal-wrapper").css("display","block");
         $(".modal-wrapper").fadeIn();
     })
