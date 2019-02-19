@@ -3,7 +3,7 @@ $(function(){
         var modal_title = $(this).text();
         var st = document.getElementsByClassName("modal-wrapper"); 
         console.log(modal_title);
-        console.log(st);
+        console.log(st.style);
         $(".modal-title").text(modal_title);
         alert("OK");
     })
