@@ -89,10 +89,12 @@ body{
 	display:none;
 	z-index:10;
 }
-.modal-title{
-	float:left;
+.modal-container{
+	position:absolute;
+	top:0px;
 }
 .modal-title{
+	float:left;
 	color:rgba(75, 219, 106, 0.7);
 }
 .modal-inner{
