@@ -72,6 +72,11 @@ body{
 }
 
 .modal-wrapper{
+	width:50%;
+	margin:auto auto;
+	position:fixed;
+	border:2px solid #aaa;
+	background:#fff;
 	display:none;
 	z-index:10;
 }
