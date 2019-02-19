@@ -19,17 +19,15 @@ li{
 .header a{
 	color:#fff;
 	border:none;
-    float:left;
+	float:left;
+	display: inline-block;
     padding:35px 30px;
     height:100px;
 }
 .header-list li{
 	display:block;
 }
-.about{
-	cursor: pointer;
-}
-.contact{
+.btn{
 	cursor: pointer;
 }
 
