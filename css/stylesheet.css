@@ -74,8 +74,9 @@ body{
 .modal-wrapper{
 	width:50%;
 	height:50%;
-	margin:25% 25%;
 	position:fixed;
+	top:25%;
+	left:25%;
 	border:2px solid #aaa;
 	background:#fff;
 	display:none;
