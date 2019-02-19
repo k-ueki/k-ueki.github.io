@@ -13,7 +13,7 @@ li{
 .header-logo{
     font-size:36px;
     float:left;
-    padding:20px 30px;
+    padding:auto 30px;
 	padding-right:50px;
 }
 .header a{
@@ -21,7 +21,7 @@ li{
 	border:none;
 	float:left;
 	display: inline-block;
-    padding:35px 30px;
+    padding:auto 30px;
     height:100px;
 }
 .header-list li{
@@ -47,7 +47,7 @@ body{
 
 .footer{
 	position: absolute;
-	top:100%-80px;
+	top:90%;
 	left:0px;
 	background-color:#2f5167;
 	color:#fff;
@@ -63,6 +63,6 @@ body{
 }
 .footer-list li{
 	float:left;
-	padding-left:15px;
+	padding-left:30px;
 	margin:auto auto;	
 }
