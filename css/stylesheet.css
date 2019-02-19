@@ -55,10 +55,11 @@ body{
 }
 .footer-logo{
 	font-size:28px;
+	float:left;
 }
 .footer-list{
 
 }
 .footer-list li{
-
+	float:left;
 }
