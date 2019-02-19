@@ -97,7 +97,7 @@ body{
 	float:left;
 	color:rgba(75, 219, 106, 0.7);
 }
-.modal-inner{
+.modal-inner h3{
 	background-color:red;
 }
 .back{
