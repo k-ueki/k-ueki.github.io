@@ -93,7 +93,7 @@ body{
 	float:left;
 }
 .modal-title{
-	background-color:rgba(75, 219, 106, 0.7);
+	color:rgba(75, 219, 106, 0.7);
 }
 .modal-inner{
 	background-color:red;
