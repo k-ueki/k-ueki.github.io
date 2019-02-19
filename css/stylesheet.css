@@ -90,8 +90,6 @@ body{
 	z-index:10;
 }
 .modal-container{
-	position:absolute;
-	top:0px;
 }
 .modal-title{
 	float:left;
