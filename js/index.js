@@ -3,8 +3,7 @@ $(function(){
         var modal_title = $(this).text();
         $(".modal-title").text(modal_title);
         var modal_content = document.getElementsByClassName("modal-container");
-        document.getElementsByClassName("modal-wrapper").append(modal_content);
-
+        $(".modal-wrapper").append(modal_content);
         var test = document.getElementsByClassName("modal-wrapper");
         console.log(test);
 
