@@ -6,7 +6,7 @@ li{
 	top:0px;
 	left:0px;
 	width:100%;
-	background-color:rgb(74, 216, 104,0.7);
+	background-color:rgba(75, 219, 106, 0.7);
 	color:#fff;
 	height:80px;
 }
@@ -42,28 +42,22 @@ body{
 	padding:100px 80px;
 }
 .main-contents{
-	font-size:100px;
+	font-size:85px;
 }
 
 
 
 .footer{
-	position: absolute;
-	top:100%-80px;
-	left:0%;
 	background-color:#2f5167;
 	color:#fff;
-	height:80px;
 	width:100%;
 }
 .footer-logo{
 	font-size:28px;
-	float:left;
 }
 .footer-list{
-	float:right;
+
 }
 .footer-list li{
-	list-style:none;
-	padding-bottom:10px;
+
 }
