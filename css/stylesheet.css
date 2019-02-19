@@ -92,10 +92,10 @@ body{
 .modal-title{
 	float:left;
 }
-.modal-container{
+.modal-title{
 	background-color:rgba(75, 219, 106, 0.7);
 }
-.modal-content{
+.modal-inner{
 	background-color:red;
 }
 .back{
