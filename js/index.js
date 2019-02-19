@@ -4,7 +4,7 @@ $(function(){
         console.log(modal_title);
         $(".modal-title").text(modal_title);
         var st = document.getElementsByClassName("modal-wrapper"); 
-        console.log(st);
+        console.log(st.style.display);
 
         alert("OK");
     })
