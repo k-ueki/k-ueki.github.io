@@ -70,3 +70,8 @@ body{
 	padding-left:30px;
 	margin:auto auto;	
 }
+
+.modal-wrapper{
+	display:none;
+	z-index:10;
+}
