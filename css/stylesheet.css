@@ -2,6 +2,10 @@ li{
 	list-style:none;
 }
 .header{
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
 	background-color:#26d0c9;
 	color:#fff;
 	height:90px;
@@ -22,6 +26,12 @@ li{
 .header-list li{
 	display:block;
 }
+.about{
+	display:inline-block;
+}
+.contact{
+	display:inline-block;
+}
 
 
 body{
@@ -38,6 +48,9 @@ body{
 
 
 .footer{
+	position: absolute;
+	top:100%-80px;
+	left:0%;
 	background-color:#2f5167;
 	color:#fff;
 	height:80px;
