@@ -1,6 +1,9 @@
 li{
 	list-style:none;
 }
+h2{
+	font-size:25px;
+}
 .header{
 	position: fixed;
 	top:0px;
@@ -30,7 +33,9 @@ li{
 .btn{
 	cursor: pointer;
 }
-
+.btn:hover{
+	background-color:rgba(75, 219, 106, 0.9);
+}
 
 body{
 	background-image:url("../sources/IMG_1098.jpg");
