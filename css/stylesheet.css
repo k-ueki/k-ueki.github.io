@@ -25,13 +25,16 @@ h2{
 	float:left;
 	display: inline-block;
     padding:15px 30px;
-    height:50px;
+    height:20px;
 }
 .header-list li{
 	display:block;
 }
+.header-list ul{
+	height:20px;
+}
 .btn{
-	height:80px;
+	height:40px;
 	padding:15px 30px;
 	cursor: pointer;
 }
