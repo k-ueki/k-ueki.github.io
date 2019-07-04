@@ -40,8 +40,8 @@ h2{
 }
 
 body{
-	background-image:url("../sources/IMG_1098.jpg");
-	background-size:cover;
+	#background-image:url("../sources/IMG_1098.jpg");
+	#background-size:cover;
 }
 .main{
 	padding:100px 80px;
