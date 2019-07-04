@@ -13,6 +13,9 @@ h2{
 	color:#fff;
 	height:80px;
 }
+.header-inner{
+	padding-left:100px;
+}
 .header-logo{
     font-size:36px;
     float:left;
