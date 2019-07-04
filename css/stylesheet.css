@@ -1,9 +1,9 @@
-li{
-	list-style:none;
-}
-h2{
-	font-size:25px;
-}
+/*
+  ====================
+  header.html
+  ===================
+  */
+
 .header{
 	position: fixed;
 	top:0px;
@@ -15,6 +15,7 @@ h2{
 }
 .header-inner{
 	padding-left:25%;
+	padding-right:25%;
 }
 .header-logo{
     font-size:36px;
@@ -45,6 +46,18 @@ h2{
 	background-color:rgba(75, 219, 106, 0.9);
 }
 
+
+/*
+# =====================
+# index.html
+# =====================
+*/
+li{
+	list-style:none;
+}
+h2{
+	font-size:25px;
+}
 body{
 	#background-image:url("../sources/IMG_1098.jpg");
 	#background-size:cover;
@@ -109,3 +122,15 @@ body{
 	float:right;
 	cursor:pointer;
 }
+
+/*
+# ========================
+# contact.html 
+# ========================
+*/
+
+.main-inner{
+	padding-left:25%;	
+	padding-right:25%;
+}
+
