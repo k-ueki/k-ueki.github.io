@@ -30,8 +30,11 @@ h2{
 .header-list li{
 	display:block;
 }
+.header-list ul{
+	height:20px;
+}
 .btn{
-	height:40px;
+	height:80px;
 	padding:15px 30px;
 	cursor: pointer;
 }
