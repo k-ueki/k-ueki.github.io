@@ -29,6 +29,7 @@ h2{
 }
 .header-list li{
 	display:block;
+	height:30px;
 }
 .btn{
 	height:80px;
