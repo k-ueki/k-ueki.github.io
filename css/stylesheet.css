@@ -25,14 +25,14 @@ h2{
 	float:left;
 	display: inline-block;
     padding:15px 30px;
-    height:80px;
+    height:30px;
 }
 .header-list li{
 	display:block;
 }
 .btn{
-	height:80px;
-	padding:15px 30px;
+	height:40px;
+	#padding:15px 30px;
 	cursor: pointer;
 }
 .btn:hover{
