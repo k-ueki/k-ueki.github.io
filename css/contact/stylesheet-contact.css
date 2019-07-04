@@ -1,9 +1,6 @@
 /*
-  ====================
-  header.html
-  ===================
-  */
-
+ * header
+ */
 .header{
 	position: absolute;
 	top:0px;
@@ -49,31 +46,61 @@
 }
 
 
-/*
-# =====================
-# index.html
-# =====================
-*/
 li{
 	list-style:none;
 }
 h2{
 	font-size:25px;
 }
+
+/*
+ * body
+ */
 body{
 	#background-image:url("../sources/IMG_1098.jpg");
 	#background-size:cover;
 }
 .main{
 	position:absolute;
-	padding:100px 80px;
+	width:100%;
+
+	margin-top:100px;
+	
+}
+.main-inner{
+	padding-left:25%;	
+	padding-right:25%;
+	overflow:visible;
+	
+	width:auto;
 }
 .main-contents{
-	font-size:85px;
+	font-size:40px;
+	position:relative;
+	overflow:visible;
+	border-bottom:2px solid rgb(0,0,0)
 }
 
+.main-sabcontents{
+	margin:auto auto;
+	text-align:center;
 
+}
+.main-sabcontents a:link { color:#000000; text-decoration:none }
+.main-sabcontents a:visited { color:#000000; text-decoration:none }
+.main-sabcontents a:hover { color:#000000; text-decoration:none }
+.main-sabcontents a:active { color:#000000; text-decoration:none }
 
+.github{
+	font-size:50px;
+
+}
+.twitter{
+	font-size:50px;
+	#padding-left:15px;
+}
+
+/*
 .footer{
 	position: absolute;
 	top:100%-50px;
@@ -99,7 +126,9 @@ body{
 	padding-left:30px;
 	margin:auto auto;	
 }
+*/
 
+/*
 .modal-wrapper{
 	width:50%;
 	height:74%;
@@ -125,23 +154,5 @@ body{
 	float:right;
 	cursor:pointer;
 }
-
-/*
-# ========================
-# contact.html 
-# ========================
 */
-
-.main-inner{
-	padding-left:25%;	
-	padding-right:25%;
-	overflow:visible;
-	
-	width:auto;
-}
-.main-contents{
-	position:relative;
-	overflow:visible;
-	border-bottom:2px solid rgb(0,0,0)
-}
 
