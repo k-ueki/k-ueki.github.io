@@ -85,25 +85,31 @@ body{
 }
 
 .main-sabcontents{
+	#margin:auto auto;
+	#text-align:center;
+}
+.main-icons{
 	margin:auto auto;
 	text-align:center;
-
 }
-.main-sabcontents a:link { color:#000000; text-decoration:none }
-.main-sabcontents a:visited { color:#000000; text-decoration:none }
-.main-sabcontents a:hover { color:#000000; text-decoration:none }
-.main-sabcontents a:active { color:#000000; text-decoration:none }
+.main-icons a:link { color:#000000; text-decoration:none }
+.main-icons a:visited { color:#000000; text-decoration:none }
+.main-icons a:hover { color:#000000; text-decoration:none }
+.main-icons a:active { color:#000000; text-decoration:none }
 
 .github{
 	font-size:50px;
 
 }
 .twitter{
-	font-size:40px;
+	font-size:50px;
+	padding-left:15px;
 	color:#00acee;
-	padding-top:15px;
 }
 
+.break{
+	border-bottom:1px solid #000000;
+}
 /*
 .footer{
 	position: absolute;
