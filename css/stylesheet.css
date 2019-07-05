@@ -1,9 +1,7 @@
 /*
-  ====================
-  header.html
-  ===================
-  */
-
+ * header
+ */
+.header-list a:link { color:#000000; text-decoration:none }
 .header{
 	position: absolute;
 	top:0px;
@@ -14,8 +12,8 @@
 	height:80px;
 }
 .header-inner{
-	padding-left:25%;
-	padding-right:25%;
+	padding:0 25%;
+	text-align:center;
 }
 .header-logo{
     font-size:36px;
@@ -32,16 +30,18 @@
     height:20px;
 }
 .header-list{
+	text-align:center;
+	width:410px;
+	margin:0 auto;
 }
 .header-list li{
-	display:block;
+	display:inline;
 }
 .header-list ul{
 	height:20px;
+	text-align:center;
 }
 .btn{
-	height:40px;
-	padding:15px 30px;
 	cursor: pointer;
 }
 .btn:hover{
@@ -49,31 +49,68 @@
 }
 
 
-/*
-# =====================
-# index.html
-# =====================
-*/
 li{
 	list-style:none;
 }
 h2{
 	font-size:25px;
 }
+
+/*
+ * body
+ */
 body{
 	#background-image:url("../sources/IMG_1098.jpg");
 	#background-size:cover;
 }
 .main{
 	position:absolute;
-	padding:100px 80px;
+	width:100%;
+
+	margin-top:100px;
+	
+}
+.main-inner{
+	padding-left:25%;	
+	padding-right:25%;
+	overflow:visible;
+	
+	width:auto;
 }
 .main-contents{
-	font-size:85px;
+	font-size:40px;
+	position:relative;
+	overflow:visible;
+	border-bottom:2px solid rgb(0,0,0)
 }
 
+.main-sabcontents{
+	#margin:auto auto;
+	#text-align:center;
+}
+.main-icons{
+	margin:auto auto;
+	text-align:center;
+}
+.main-icons a:link { color:#000000; text-decoration:none }
+.main-icons a:visited { color:#000000; text-decoration:none }
+.main-icons a:hover { color:#000000; text-decoration:none }
+.main-icons a:active { color:#000000; text-decoration:none }
 
+.github{
+	font-size:50px;
 
+}
+.twitter{
+	font-size:50px;
+	padding-left:15px;
+	color:#00acee;
+}
+
+.break{
+	border-bottom:1px solid #000000;
+}
+/*
 .footer{
 	position: absolute;
 	top:100%-50px;
@@ -99,7 +136,9 @@ body{
 	padding-left:30px;
 	margin:auto auto;	
 }
+*/
 
+/*
 .modal-wrapper{
 	width:50%;
 	height:74%;
@@ -125,23 +164,5 @@ body{
 	float:right;
 	cursor:pointer;
 }
-
-/*
-# ========================
-# contact.html 
-# ========================
 */
-
-.main-inner{
-	padding-left:25%;	
-	padding-right:25%;
-	overflow:visible;
-	
-	width:auto;
-}
-.main-contents{
-	position:relative;
-	overflow:visible;
-	border-bottom:2px solid rgb(0,0,0)
-}
 
