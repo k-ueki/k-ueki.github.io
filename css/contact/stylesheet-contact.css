@@ -27,7 +27,12 @@
 	float:left;
 	display: inline-block;
     padding:15px 30px;
-    height:30px;
+    height:20px;
+}
+.header-list{
+	text-align:center;
+	width:410px;
+	margin:0 auto;
 }
 .header-list li{
 	display:inline;
@@ -37,8 +42,6 @@
 	text-align:center;
 }
 .btn{
-	height:40px;
-	#padding:15px 30px;
 	cursor: pointer;
 }
 .btn:hover{
@@ -82,31 +85,25 @@ body{
 }
 
 .main-sabcontents{
-	#margin:auto auto;
-	#text-align:center;
-}
-.main-icons{
 	margin:auto auto;
 	text-align:center;
+
 }
-.main-icons a:link { color:#000000; text-decoration:none }
-.main-icons a:visited { color:#000000; text-decoration:none }
-.main-icons a:hover { color:#000000; text-decoration:none }
-.main-icons a:active { color:#000000; text-decoration:none }
+.main-sabcontents a:link { color:#000000; text-decoration:none }
+.main-sabcontents a:visited { color:#000000; text-decoration:none }
+.main-sabcontents a:hover { color:#000000; text-decoration:none }
+.main-sabcontents a:active { color:#000000; text-decoration:none }
 
 .github{
 	font-size:50px;
 
 }
 .twitter{
-	font-size:50px;
-	padding-left:15px;
+	font-size:40px;
 	color:#00acee;
+	padding-top:15px;
 }
 
-.break{
-	border-bottom:1px solid #000000;
-}
 /*
 .footer{
 	position: absolute;
